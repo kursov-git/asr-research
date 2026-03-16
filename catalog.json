@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "updated_at": "2026-03-16T10:37:00Z",
+  "root": "/home/skris/research/asr",
+  "project": {
+    "name": "ASR Research",
+    "scope": "Speech-to-text research across personal dictation tools, managed STT APIs, and open source/self-hosted ASR.",
+    "status": "active",
+    "primary_entrypoints": [
+      "/home/skris/research/asr/README.md",
+      "/home/skris/research/asr/AGENT_CONTEXT.md",
+      "/home/skris/research/asr/STATUS.md",
+      "/home/skris/research/asr/asr_landscape_map.md"
+    ]
+  },
+  "taxonomy": [
+    {
+      "id": "personal_dictation",
+      "label": "Personal Dictation",
+      "description": "End-user dictation and productivity tools for writing in apps, IDEs, browsers, and documents."
+    },
+    {
+      "id": "managed_stt_api",
+      "label": "Managed STT API",
+      "description": "Speech-to-text APIs and services used to build product backends without owning compute."
+    },
+    {
+      "id": "open_source_self_host",
+      "label": "Open Source / Self-Host",
+      "description": "Inference engines, runtime stacks, and training/fine-tuning toolkits for private or self-managed ASR."
+    },
+    {
+      "id": "project_meta",
+      "label": "Project Meta",
+      "description": "Navigation, handoff context, and maintenance status for the research folder."
+    }
+  ],
+  "documents": [
+    {
+      "path": "/home/skris/research/asr/README.md",
+      "slug": "readme",
+      "title": "ASR Research README",
+      "category": "project_meta",
+      "status": "current",
+      "date": "2026-03-16",
+      "role": "entrypoint",
+      "summary": "Top-level navigation and reading order for the research folder.",
+      "tags": ["navigation", "index", "overview"],
+      "recommended_when": [
+        "Starting work in this folder",
+        "Need reading order",
+        "Need scenario-to-document routing"
+      ],
+      "source_of_truth": true
+    },
+    {
+      "path": "/home/skris/research/asr/AGENT_CONTEXT.md",
+      "slug": "agent_context",
+      "title": "AGENT_CONTEXT",
+      "category": "project_meta",
+      "status": "current",
+      "date": "2026-03-16",
+      "role": "handoff",
+      "summary": "LLM-agent handoff file with taxonomy, established conclusions, and working rules.",
+      "tags": ["agent", "handoff", "context", "taxonomy"],
+      "recommended_when": [
+        "Another agent continues the work",
+        "Need source-of-truth documents",
+        "Need extension rules"
+      ],
+      "source_of_truth": true
+    },
+    {
+      "path": "/home/skris/research/asr/STATUS.md",
+      "slug": "status",
+      "title": "STATUS",
+      "category": "project_meta",
+      "status": "current",
+      "date": "2026-03-16",
+      "role": "operations",
+      "summary": "Operational snapshot of completed work, stable conclusions, fast-aging claims, and next actions.",
+      "tags": ["status", "maintenance", "freshness", "next-steps"],
+      "recommended_when": [
+        "Need current project state",
+        "Need to know what to revalidate",
+        "Need next actions"
+      ],
+      "source_of_truth": true
+    },
+    {
+      "path": "/home/skris/research/asr/asr_landscape_map.md",
+      "slug": "asr_landscape_map",
+      "title": "ASR Landscape Map",
+      "category": "project_meta",
+      "status": "current",
+      "date": "2026-03-16",
+      "role": "decision-map",
+      "summary": "One-page map separating personal dictation, managed APIs, and open source/self-hosted ASR.",
+      "tags": ["landscape", "taxonomy", "decision-map", "overview"],
+      "recommended_when": [
+        "Need top-level classification",
+        "Need to avoid category confusion",
+        "Need first document to read"
+      ],
+      "source_of_truth": true
+    },
+    {
+      "path": "/home/skris/research/asr/asr_open_source_survey_2026-03-14.md",
+      "slug": "asr_open_source_survey_2026_03_14",
+      "title": "Open Source ASR Survey",
+      "category": "open_source_self_host",
+      "status": "current_but_time_sensitive",
+      "date": "2026-03-14",
+      "role": "research",
+      "summary": "Detailed survey of open source ASR engines, runtime stacks, and training frameworks.",
+      "tags": ["open-source", "self-host", "whisper", "sherpa-onnx", "gigaam"],
+      "recommended_when": [
+        "Need open source shortlist",
+        "Need build-vs-buy guidance",
+        "Need self-host recommendations"
+      ],
+      "source_of_truth": true
+    },
+    {
+      "path": "/home/skris/research/asr/asr_research_query.md",
+      "slug": "asr_research_query",
+      "title": "Open Source ASR Research Query",
+      "category": "open_source_self_host",
+      "status": "current",
+      "date": "2026-03-14",
+      "role": "research-prompt",
+      "summary": "Reusable master research prompt for extending the open source ASR study.",
+      "tags": ["query", "research", "prompt", "expansion"],
+      "recommended_when": [
+        "Need to continue open source research",
+        "Need prompt scaffold for another agent",
+        "Need expansion backlog"
+      ],
+      "source_of_truth": false
+    },
+    {
+      "path": "/home/skris/research/asr/asr_managed_services_shortlist_2026-03-16.md",
+      "slug": "asr_managed_services_shortlist_2026_03_16",
+      "title": "ASR without Own Hardware: Managed Services Shortlist",
+      "category": "managed_stt_api",
+      "status": "current_but_time_sensitive",
+      "date": "2026-03-16",
+      "role": "research",
+      "summary": "Detailed comparison of managed STT services, pricing, free tiers, and GPU self-host break-even logic.",
+      "tags": ["managed", "pricing", "cloudflare", "groq", "assemblyai", "deepgram"],
+      "recommended_when": [
+        "Need API pricing comparison",
+        "Need no-hardware options",
+        "Need managed-vs-self-host economics"
+      ],
+      "source_of_truth": true
+    },
+    {
+      "path": "/home/skris/research/asr/asr_provider_decision_matrix.md",
+      "slug": "asr_provider_decision_matrix",
+      "title": "ASR Provider Decision Matrix",
+      "category": "managed_stt_api",
+      "status": "current_but_time_sensitive",
+      "date": "2026-03-16",
+      "role": "decision-matrix",
+      "summary": "Fast provider selection by scenario with primary choices and fallbacks.",
+      "tags": ["decision", "providers", "matrix", "routing"],
+      "recommended_when": [
+        "Need fastest provider recommendation",
+        "Need scenario-based shortlist",
+        "Need fallback design"
+      ],
+      "source_of_truth": true
+    },
+    {
+      "path": "/home/skris/research/asr/asr_backend_blueprint.md",
+      "slug": "asr_backend_blueprint",
+      "title": "ASR Backend Blueprint",
+      "category": "managed_stt_api",
+      "status": "current",
+      "date": "2026-03-16",
+      "role": "architecture",
+      "summary": "Implementation blueprint for a product backend using managed ASR upstreams, queueing, and fallback logic.",
+      "tags": ["backend", "architecture", "queue", "fallback", "api"],
+      "recommended_when": [
+        "Need implementation direction",
+        "Need backend architecture",
+        "Need job flow and data model"
+      ],
+      "source_of_truth": true
+    },
+    {
+      "path": "/home/skris/research/asr/wisprflow_vs_asr_options.md",
+      "slug": "wisprflow_vs_asr_options",
+      "title": "Wispr Flow vs Other ASR Options",
+      "category": "personal_dictation",
+      "status": "current_but_time_sensitive",
+      "date": "2026-03-16",
+      "role": "comparison",
+      "summary": "Compares Wispr Flow to managed APIs and open source options while explicitly separating product classes.",
+      "tags": ["wispr-flow", "comparison", "dictation", "classification"],
+      "recommended_when": [
+        "Need to position Wispr Flow",
+        "Need to explain why it is not a backend API",
+        "Need category-correct comparison"
+      ],
+      "source_of_truth": false
+    },
+    {
+      "path": "/home/skris/research/asr/personal_dictation_stack.md",
+      "slug": "personal_dictation_stack",
+      "title": "Personal Dictation Stack",
+      "category": "personal_dictation",
+      "status": "current_but_time_sensitive",
+      "date": "2026-03-16",
+      "role": "research",
+      "summary": "Shortlist and comparison of end-user dictation tools including Wispr Flow, Superwhisper, Aqua Voice, EdgeWhisper, and MacWhisper.",
+      "tags": ["dictation", "wispr-flow", "superwhisper", "macwhisper", "aqua-voice"],
+      "recommended_when": [
+        "Need personal dictation recommendation",
+        "Need writing tool comparison",
+        "Need end-user shortlist"
+      ],
+      "source_of_truth": true
+    }
+  ]
+}
