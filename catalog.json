@@ -87,6 +87,23 @@
       "source_of_truth": true
     },
     {
+      "path": "/home/skris/research/asr/FUTURE_PROJECTS.md",
+      "slug": "future_projects",
+      "title": "Future Projects",
+      "category": "project_meta",
+      "status": "current",
+      "date": "2026-03-16",
+      "role": "parking-lot",
+      "summary": "Parked ideas that are worth preserving but not active priorities, including the generic voice-input product direction.",
+      "tags": ["future", "parking-lot", "project-ideas", "paused"],
+      "recommended_when": [
+        "Need to understand parked ideas",
+        "Need re-entry conditions for paused directions",
+        "Need to avoid restarting low-priority work prematurely"
+      ],
+      "source_of_truth": true
+    },
+    {
       "path": "/home/skris/research/asr/AGENT_CONTEXT.md",
       "slug": "agent_context",
       "title": "AGENT_CONTEXT",

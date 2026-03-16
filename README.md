@@ -85,6 +85,7 @@
 
 - [personal_dictation_stack.md](/home/skris/research/asr/personal_dictation_stack.md)
 - [wisprflow_vs_asr_options.md](/home/skris/research/asr/wisprflow_vs_asr_options.md)
+- [FUTURE_PROJECTS.md](/home/skris/research/asr/FUTURE_PROJECTS.md)
 
 Когда читать:
 
@@ -176,6 +177,12 @@
 - внедренческий шаблон сервиса с примерами кода;
 - evaluation set и scoring methodology;
 - shortlist по русскоязычной диктовке отдельно.
+
+## Parked Ideas
+
+- [FUTURE_PROJECTS.md](/home/skris/research/asr/FUTURE_PROJECTS.md)
+
+Сейчас туда вынесена тема отдельного voice-input/dictation проекта как future vibe-coding candidate.
 
 ## Companion Context File
 

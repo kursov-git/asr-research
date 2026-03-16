@@ -31,6 +31,8 @@ The current state is not yet complete for:
 - measured WER/CER comparisons on an owned eval set;
 - implementation-specific rollout estimates.
 
+The folder also now contains parked project ideas that are intentionally not active.
+
 ## 2. Completed Work
 
 ### Core navigation and context
@@ -208,7 +210,21 @@ Create implementation-ready backend materials:
 - worker design;
 - deployment checklists.
 
-## 8. Suggested Maintenance Cadence
+## 8. Parked Projects
+
+These are intentionally not active:
+
+- generic voice-input / dictation product
+
+See:
+
+- [FUTURE_PROJECTS.md](/home/skris/research/asr/FUTURE_PROJECTS.md)
+
+Reason:
+
+- interesting category, but too crowded right now for it to be a default build priority.
+
+## 9. Suggested Maintenance Cadence
 
 ### Recheck monthly
 
@@ -232,7 +248,7 @@ Create implementation-ready backend materials:
 - business/team plan details
 - API availability
 
-## 9. Confidence Notes
+## 10. Confidence Notes
 
 High confidence:
 
@@ -254,7 +270,7 @@ Lower confidence until measured locally:
 - exact blended economics under real fallback routing
 - exact throughput crossover where self-host beats managed APIs
 
-## 10. If Another Agent Continues This Work
+## 11. If Another Agent Continues This Work
 
 Recommended startup sequence:
 
@@ -264,7 +280,7 @@ Recommended startup sequence:
 4. Jump to the scenario-specific source doc
 5. Revalidate only the time-sensitive claims relevant to the new task
 
-## 11. Folder Health
+## 12. Folder Health
 
 Current folder health: good
 
