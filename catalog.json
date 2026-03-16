@@ -39,7 +39,7 @@
     {
       "path": "/home/skris/research/asr/README.md",
       "slug": "readme",
-      "title": "ASR Research README",
+      "title": "ASR Research",
       "category": "project_meta",
       "status": "current",
       "date": "2026-03-16",
@@ -50,6 +50,39 @@
         "Starting work in this folder",
         "Need reading order",
         "Need scenario-to-document routing"
+      ],
+      "source_of_truth": true
+    },
+    {
+      "path": "/home/skris/research/asr/CONTRIBUTING.md",
+      "slug": "contributing",
+      "title": "Contributing",
+      "category": "project_meta",
+      "status": "current",
+      "date": "2026-03-16",
+      "role": "governance",
+      "summary": "Contribution guidelines for humans and agents extending the repository.",
+      "tags": ["contributing", "governance", "workflow"],
+      "recommended_when": [
+        "Need contribution rules",
+        "Adding a new document",
+        "Updating time-sensitive research"
+      ],
+      "source_of_truth": true
+    },
+    {
+      "path": "/home/skris/research/asr/LICENSE",
+      "slug": "license",
+      "title": "MIT License",
+      "category": "project_meta",
+      "status": "current",
+      "date": "2026-03-16",
+      "role": "license",
+      "summary": "Repository license.",
+      "tags": ["license", "mit"],
+      "recommended_when": [
+        "Need reuse terms",
+        "Need open source licensing information"
       ],
       "source_of_truth": true
     },

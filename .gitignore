@@ -1,0 +1,20 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temp / local scratch
+tmp/
+temp/
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/

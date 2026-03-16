@@ -1,7 +1,21 @@
-# ASR Research README
+# ASR Research
 
 Дата: 2026-03-16 UTC
-Назначение: оглавление папки `/home/skris/research/asr` и быстрый маршрут по материалам исследования.
+Назначение: оглавление репозитория `/home/skris/research/asr` и быстрый маршрут по материалам исследования.
+
+## Что это за репозиторий
+
+Это curated knowledge base по speech-to-text решениям.
+
+Репозиторий покрывает три отдельные области:
+
+1. personal dictation tools
+2. managed STT APIs
+3. open source / self-hosted ASR
+
+Основное правило репозитория:
+
+- не смешивать эти три класса решений в одну матрицу
 
 ## Что лежит в этой папке
 
@@ -16,6 +30,13 @@
 - не смешивать разные классы решений;
 - быстро выбирать правильный документ под конкретную задачу;
 - сохранить контекст для продолжения исследования другими агентами или людьми.
+
+## Repo Meta
+
+- License: [LICENSE](/home/skris/research/asr/LICENSE)
+- Contribution guide: [CONTRIBUTING.md](/home/skris/research/asr/CONTRIBUTING.md)
+- Machine-readable catalog: [catalog.json](/home/skris/research/asr/catalog.json)
+- CSV index: [index.csv](/home/skris/research/asr/index.csv)
 
 ## С чего читать
 

@@ -1,5 +1,7 @@
 path,slug,title,category,status,date,role,source_of_truth
-/home/skris/research/asr/README.md,readme,ASR Research README,project_meta,current,2026-03-16,entrypoint,true
+/home/skris/research/asr/README.md,readme,ASR Research,project_meta,current,2026-03-16,entrypoint,true
+/home/skris/research/asr/CONTRIBUTING.md,contributing,Contributing,project_meta,current,2026-03-16,governance,true
+/home/skris/research/asr/LICENSE,license,MIT License,project_meta,current,2026-03-16,license,true
 /home/skris/research/asr/AGENT_CONTEXT.md,agent_context,AGENT_CONTEXT,project_meta,current,2026-03-16,handoff,true
 /home/skris/research/asr/STATUS.md,status,STATUS,project_meta,current,2026-03-16,operations,true
 /home/skris/research/asr/asr_landscape_map.md,asr_landscape_map,ASR Landscape Map,project_meta,current,2026-03-16,decision-map,true
