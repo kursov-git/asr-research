@@ -27,6 +27,7 @@ The research has already produced:
 - a managed-services shortlist;
 - a provider decision matrix;
 - a backend architecture blueprint;
+- a layered backend document set for MVP, advanced patterns, and production hardening;
 - a Wispr Flow comparison;
 - a personal dictation stack review;
 - a top-level landscape map.
@@ -50,6 +51,9 @@ Scenario-specific source documents:
   - [asr_managed_services_shortlist_2026-03-16.md](/home/skris/research/asr/asr_managed_services_shortlist_2026-03-16.md)
   - [asr_provider_decision_matrix.md](/home/skris/research/asr/asr_provider_decision_matrix.md)
   - [asr_backend_blueprint.md](/home/skris/research/asr/asr_backend_blueprint.md)
+  - [mvp_backend_blueprint.md](/home/skris/research/asr/mvp_backend_blueprint.md)
+  - [advanced_backend_patterns.md](/home/skris/research/asr/advanced_backend_patterns.md)
+  - [production_hardening.md](/home/skris/research/asr/production_hardening.md)
 - personal dictation:
   - [personal_dictation_stack.md](/home/skris/research/asr/personal_dictation_stack.md)
   - [wisprflow_vs_asr_options.md](/home/skris/research/asr/wisprflow_vs_asr_options.md)
@@ -130,6 +134,8 @@ These conclusions have already been reached and should not be rediscovered from 
 - `Groq` is the strongest thin-wrapper backend default.
 - `AssemblyAI` is the strongest free-start/pilot option.
 - `Deepgram` is especially relevant for voice/realtime product scenarios.
+- MVP backend guidance should stay minimal: one provider, async jobs, polling, minimal schema.
+- Advanced patterns should be preserved, but moved out of the MVP doc.
 
 ### 5.4 Personal dictation conclusions
 

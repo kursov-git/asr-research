@@ -13,6 +13,7 @@ The folder already contains:
 - open source ASR survey;
 - managed STT/API shortlist;
 - backend architecture blueprint;
+- layered backend architecture docs for MVP, advanced patterns, and production hardening;
 - personal dictation tooling review;
 - Wispr Flow comparison;
 - navigation and agent handoff docs.
@@ -78,6 +79,7 @@ These are the currently established default recommendations inside this folder.
 - default thin-wrapper backend upstream: `Groq STT`
 - strongest free-start/pilot option: `AssemblyAI`
 - strongest voice/realtime-oriented API option in current shortlist: `Deepgram`
+- MVP backend should stay minimal; advanced backend ideas are now split into separate later-stage docs
 
 ### Personal dictation
 
@@ -172,6 +174,10 @@ Missing:
 - database schema migrations
 - queue worker prototype
 - provider adapter contract in code
+
+Note:
+
+- backend document layering is now improved, but implementation artifacts are still missing.
 
 ### Gap D. Russian-specific specialization
 

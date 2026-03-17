@@ -74,12 +74,16 @@
 - [asr_managed_services_shortlist_2026-03-16.md](/home/skris/research/asr/asr_managed_services_shortlist_2026-03-16.md)
 - [asr_provider_decision_matrix.md](/home/skris/research/asr/asr_provider_decision_matrix.md)
 - [asr_backend_blueprint.md](/home/skris/research/asr/asr_backend_blueprint.md)
+- [mvp_backend_blueprint.md](/home/skris/research/asr/mvp_backend_blueprint.md)
+- [advanced_backend_patterns.md](/home/skris/research/asr/advanced_backend_patterns.md)
+- [production_hardening.md](/home/skris/research/asr/production_hardening.md)
 
 Когда читать:
 
 - если нужен backend для продукта;
 - если нет своего железа;
 - если нужно выбрать между `Groq`, `Cloudflare`, `AssemblyAI`, `Deepgram` и self-host.
+- если нужно понять, что должно войти в MVP, а что нужно вынести в later stages.
 
 ### 4. Personal dictation / productivity tools
 
@@ -112,13 +116,14 @@
 Читайте:
 
 - [asr_provider_decision_matrix.md](/home/skris/research/asr/asr_provider_decision_matrix.md)
-- [asr_backend_blueprint.md](/home/skris/research/asr/asr_backend_blueprint.md)
+- [mvp_backend_blueprint.md](/home/skris/research/asr/mvp_backend_blueprint.md)
 
 Короткий вывод:
 
 - `Groq` как default upstream
 - `Cloudflare` как cheapest batch option
 - `AssemblyAI` как generous free start
+- один provider и polling важнее раннего fallback и production-излишеств
 
 ### Я хочу self-host / open source / offline
 
@@ -155,7 +160,8 @@
 1. [asr_landscape_map.md](/home/skris/research/asr/asr_landscape_map.md)
 2. [asr_provider_decision_matrix.md](/home/skris/research/asr/asr_provider_decision_matrix.md)
 3. [asr_managed_services_shortlist_2026-03-16.md](/home/skris/research/asr/asr_managed_services_shortlist_2026-03-16.md)
-4. [asr_backend_blueprint.md](/home/skris/research/asr/asr_backend_blueprint.md)
+4. [mvp_backend_blueprint.md](/home/skris/research/asr/mvp_backend_blueprint.md)
+5. [advanced_backend_patterns.md](/home/skris/research/asr/advanced_backend_patterns.md)
 
 ### Path B. Open source/self-host
 

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-03-16T10:37:00Z",
+  "updated_at": "2026-03-17T00:00:00Z",
   "root": "/home/skris/research/asr",
   "project": {
     "name": "ASR Research",
@@ -229,13 +229,64 @@
       "category": "managed_stt_api",
       "status": "current",
       "date": "2026-03-16",
-      "role": "architecture",
-      "summary": "Implementation blueprint for a product backend using managed ASR upstreams, queueing, and fallback logic.",
-      "tags": ["backend", "architecture", "queue", "fallback", "api"],
+      "role": "architecture-index",
+      "summary": "Index document that splits backend architecture into MVP, advanced patterns, and production hardening layers.",
+      "tags": ["backend", "architecture", "index", "layering"],
       "recommended_when": [
-        "Need implementation direction",
-        "Need backend architecture",
-        "Need job flow and data model"
+        "Need backend doc routing",
+        "Need to understand new backend layers",
+        "Need to avoid mixing MVP and production concerns"
+      ],
+      "source_of_truth": true
+    },
+    {
+      "path": "/home/skris/research/asr/mvp_backend_blueprint.md",
+      "slug": "mvp_backend_blueprint",
+      "title": "MVP Backend Blueprint",
+      "category": "managed_stt_api",
+      "status": "current",
+      "date": "2026-03-17",
+      "role": "architecture",
+      "summary": "Minimal implementation blueprint for the first working ASR backend version.",
+      "tags": ["backend", "mvp", "architecture", "minimal"],
+      "recommended_when": [
+        "Need first implementation shape",
+        "Need MVP backend scope",
+        "Need minimal schema and flow"
+      ],
+      "source_of_truth": true
+    },
+    {
+      "path": "/home/skris/research/asr/advanced_backend_patterns.md",
+      "slug": "advanced_backend_patterns",
+      "title": "Advanced Backend Patterns",
+      "category": "managed_stt_api",
+      "status": "current",
+      "date": "2026-03-17",
+      "role": "architecture-later",
+      "summary": "Advanced backend patterns that should be kept but not forced into the MVP layer.",
+      "tags": ["backend", "advanced", "fallback", "chunking", "observability"],
+      "recommended_when": [
+        "Need next-stage backend ideas",
+        "Need to preserve non-MVP architecture ideas",
+        "Need fallback or chunking guidance"
+      ],
+      "source_of_truth": true
+    },
+    {
+      "path": "/home/skris/research/asr/production_hardening.md",
+      "slug": "production_hardening",
+      "title": "Production Hardening",
+      "category": "managed_stt_api",
+      "status": "current",
+      "date": "2026-03-17",
+      "role": "operations-later",
+      "summary": "Production-stage reliability, abuse-control, and hardening concerns for a mature ASR backend.",
+      "tags": ["backend", "production", "hardening", "abuse", "reliability"],
+      "recommended_when": [
+        "Need production hardening plan",
+        "Need abuse and reliability controls",
+        "Need later-stage operational guidance"
       ],
       "source_of_truth": true
     },

@@ -10,6 +10,9 @@ path,slug,title,category,status,date,role,source_of_truth
 /home/skris/research/asr/asr_research_query.md,asr_research_query,Open Source ASR Research Query,open_source_self_host,current,2026-03-14,research-prompt,false
 /home/skris/research/asr/asr_managed_services_shortlist_2026-03-16.md,asr_managed_services_shortlist_2026_03_16,ASR without Own Hardware: Managed Services Shortlist,managed_stt_api,current_but_time_sensitive,2026-03-16,research,true
 /home/skris/research/asr/asr_provider_decision_matrix.md,asr_provider_decision_matrix,ASR Provider Decision Matrix,managed_stt_api,current_but_time_sensitive,2026-03-16,decision-matrix,true
-/home/skris/research/asr/asr_backend_blueprint.md,asr_backend_blueprint,ASR Backend Blueprint,managed_stt_api,current,2026-03-16,architecture,true
+/home/skris/research/asr/asr_backend_blueprint.md,asr_backend_blueprint,ASR Backend Blueprint,managed_stt_api,current,2026-03-17,architecture-index,true
+/home/skris/research/asr/mvp_backend_blueprint.md,mvp_backend_blueprint,MVP Backend Blueprint,managed_stt_api,current,2026-03-17,architecture,true
+/home/skris/research/asr/advanced_backend_patterns.md,advanced_backend_patterns,Advanced Backend Patterns,managed_stt_api,current,2026-03-17,architecture-later,true
+/home/skris/research/asr/production_hardening.md,production_hardening,Production Hardening,managed_stt_api,current,2026-03-17,operations-later,true
 /home/skris/research/asr/wisprflow_vs_asr_options.md,wisprflow_vs_asr_options,Wispr Flow vs Other ASR Options,personal_dictation,current_but_time_sensitive,2026-03-16,comparison,false
 /home/skris/research/asr/personal_dictation_stack.md,personal_dictation_stack,Personal Dictation Stack,personal_dictation,current_but_time_sensitive,2026-03-16,research,true

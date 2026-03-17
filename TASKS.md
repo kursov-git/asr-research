@@ -33,7 +33,7 @@ Recommended immediate focus:
 
 1. define a measurable evaluation plan
 2. create a cost model by monthly volume
-3. turn the backend blueprint into implementation-ready artifacts
+3. turn the MVP backend blueprint into implementation-ready artifacts
 
 ## P0 Tasks
 
@@ -130,6 +130,7 @@ Definition of done:
 
 - Status: `todo`
 - Goal: turn the backend blueprint into a provider-neutral API contract
+- Goal: turn the backend docs into a provider-neutral API contract without polluting the MVP layer
 - Why it matters: implementation should not hard-bind business logic to one provider
 
 Deliverables:
